@@ -1,0 +1,5 @@
+# Componentes gestionados que ESP-IDF descarga automáticamente al compilar.
+dependencies:
+  # Driver para LEDs direccionables (WS2812) usado por el LED RGB del Kaluga-1.
+  # La serie 3.x es la primera que compila contra ESP-IDF v6.
+  espressif/led_strip: "^3.0.3"
